@@ -1,6 +1,5 @@
 import pytest
-from calculate_fee import calculate_shipping_fee  # Import hàm từ file calculate_fee.py
-
+from calculate_fee import calculate_shipping_fee
 test_data = [
     (-97.96, -20.6, "Đầu vào không hợp lệ"),
     (97.84, -90.7, "Đầu vào không hợp lệ"),
